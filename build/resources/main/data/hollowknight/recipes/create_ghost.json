@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "hollowknight:broken_ghost_head"
+  },
+  "addition": {
+    "item": "hollowknight:shadeitem"
+  },
+  "result": {
+    "item": "hollowknight:ghost_head"
+  }
+}

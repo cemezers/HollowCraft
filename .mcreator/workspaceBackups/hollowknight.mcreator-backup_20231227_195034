@@ -1,0 +1,440 @@
+{
+  "mod_elements": [
+    {
+      "name": "Nail",
+      "type": "tool",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nail",
+      "metadata": {
+        "files": [
+          "src/main/java/fan/teamchery/hollowknight/item/NailItem.java",
+          "src/main/resources/assets/hollowknight/models/item/nail.json"
+        ]
+      }
+    },
+    {
+      "name": "Ghost",
+      "type": "animatedentity",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ghost",
+      "metadata": {
+        "files": [
+          "src/main/java/fan/teamchery/hollowknight/entity/model/GhostModel.java",
+          "src/main/java/fan/teamchery/hollowknight/client/renderer/GhostRenderer.java",
+          "src/main/resources/data/hollowknight/forge/biome_modifier/ghost_biome_modifier.json",
+          "src/main/java/fan/teamchery/hollowknight/entity/GhostEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "Geo",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "geo",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hollowknight/models/item/geo.json",
+          "src/main/java/fan/teamchery/hollowknight/item/GeoItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Trdegeo",
+      "type": "villagertrade",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trdegeo",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Dark",
+      "type": "livingentity",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shade",
+      "metadata": {
+        "files": [
+          "src/main/java/fan/teamchery/hollowknight/entity/DarkEntity.java",
+          "src/main/java/fan/teamchery/hollowknight/client/renderer/DarkRenderer.java",
+          "src/main/resources/data/hollowknight/forge/biome_modifier/shade_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "GhostPriGibieliSushchnosti",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ghost_pri_gibieli_sushchnosti",
+      "metadata": {
+        "files": [
+          "src/main/java/fan/teamchery/hollowknight/procedures/GhostPriGibieliSushchnostiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Radiance",
+      "type": "animatedentity",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radiance",
+      "metadata": {
+        "files": [
+          "src/main/java/fan/teamchery/hollowknight/client/renderer/RadianceRenderer.java",
+          "src/main/resources/data/hollowknight/forge/biome_modifier/radiance_biome_modifier.json",
+          "src/main/java/fan/teamchery/hollowknight/entity/model/RadianceModel.java",
+          "src/main/java/fan/teamchery/hollowknight/entity/RadianceEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "BrokenGhostHead",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "broken_ghost_head",
+      "metadata": {
+        "files": [
+          "src/main/java/fan/teamchery/hollowknight/item/BrokenGhostHeadItem.java",
+          "src/main/resources/assets/hollowknight/models/item/broken_ghost_head.json"
+        ]
+      }
+    },
+    {
+      "name": "GhostHeadPriShchielchkiePKM",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ghost_head_pri_shchielchkie_pkm",
+      "metadata": {
+        "files": [
+          "src/main/java/fan/teamchery/hollowknight/procedures/GhostHeadPriShchielchkiePKMProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GhostHead",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ghost_head",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hollowknight/models/item/ghost_head.json",
+          "src/main/java/fan/teamchery/hollowknight/item/GhostHeadItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Shadeitem",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadeitem",
+      "metadata": {
+        "files": [
+          "src/main/java/fan/teamchery/hollowknight/item/ShadeitemItem.java",
+          "src/main/resources/assets/hollowknight/models/item/shadeitem.json"
+        ]
+      }
+    },
+    {
+      "name": "CreateGhost",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "create_ghost",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hollowknight/recipes/create_ghost.json"
+        ]
+      }
+    },
+    {
+      "name": "PaleOreItem",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pale_ore_item",
+      "metadata": {
+        "files": [
+          "src/main/java/fan/teamchery/hollowknight/item/PaleOreItemItem.java",
+          "src/main/resources/assets/hollowknight/models/item/pale_ore_item.json"
+        ]
+      }
+    },
+    {
+      "name": "PaleOre",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pale_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hollowknight/models/item/pale_ore.json",
+          "src/main/java/fan/teamchery/hollowknight/world/features/ores/PaleOreFeature.java",
+          "src/main/resources/assets/hollowknight/blockstates/pale_ore.json",
+          "src/main/resources/assets/hollowknight/models/block/pale_ore.json",
+          "src/main/java/fan/teamchery/hollowknight/block/PaleOreBlock.java",
+          "src/main/resources/data/hollowknight/forge/biome_modifier/pale_ore_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "CreateNail",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "create_nail",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hollowknight/recipes/create_nail.json"
+        ]
+      }
+    },
+    {
+      "name": "Plague",
+      "type": "item",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plague",
+      "metadata": {
+        "files": [
+          "src/main/java/fan/teamchery/hollowknight/item/PlagueItem.java",
+          "src/main/resources/assets/hollowknight/models/item/plague.json"
+        ]
+      }
+    },
+    {
+      "name": "EntityPlague",
+      "type": "animatedentity",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "entity_plague",
+      "metadata": {
+        "files": [
+          "src/main/java/fan/teamchery/hollowknight/entity/model/EntityPlagueModel.java",
+          "src/main/resources/data/hollowknight/forge/biome_modifier/entity_plague_biome_modifier.json",
+          "src/main/java/fan/teamchery/hollowknight/client/renderer/EntityPlagueRenderer.java",
+          "src/main/java/fan/teamchery/hollowknight/entity/EntityPlagueEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "EffectPlaguePriNalozhieniiEffiekta",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "effect_plague_pri_nalozhienii_effiekta",
+      "metadata": {
+        "files": [
+          "src/main/java/fan/teamchery/hollowknight/procedures/EffectPlaguePriNalozhieniiEffiektaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EffectPlague",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "effect_plague",
+      "metadata": {
+        "files": [
+          "src/main/java/fan/teamchery/hollowknight/potion/EffectPlagueMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "PlaguePriZaviershieniiIspolzovaniia",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plague_pri_zaviershienii_ispolzovaniia",
+      "metadata": {
+        "files": [
+          "src/main/java/fan/teamchery/hollowknight/procedures/PlaguePriZaviershieniiIspolzovaniiaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HollowKnightTab",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hollow_knight_tab",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "ChestHollowGui",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chest_hollow_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/fan/teamchery/hollowknight/world/inventory/ChestHollowGuiMenu.java",
+          "src/main/java/fan/teamchery/hollowknight/client/gui/ChestHollowGuiScreen.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "ru_ru": {
+      "itemGroup.tabhollow_knight_tab": "Hollow Knight",
+      "item.hollowknight.entity_plague_spawn_egg": "Entity Plague Spawn Egg",
+      "item.hollowknight.broken_ghost_head": "Сломаный призрак",
+      "item.hollowknight.plague": "Чума",
+      "entity.hollowknight.shade": "Тень",
+      "item.hollowknight.ghost_head": "Череп призрака",
+      "block.hollowknight.pale_ore": "Бледная руда",
+      "entity.hollowknight.ghost": "Призрак",
+      "entity.hollowknight.radiance": "Лучезарность чумы",
+      "item.hollowknight.shadeitem": "Кусок тьмы",
+      "item.hollowknight.ghost_spawn_egg": "Ghost Spawn Egg",
+      "effect.hollowknight.effect_plague": "Plague",
+      "item.hollowknight.geo": "Гео",
+      "entity.hollowknight.entity_plague": "Entity Plague",
+      "item.hollowknight.radiance_spawn_egg": "Radiance Spawn Egg",
+      "item.hollowknight.nail": "Гвоздь",
+      "item.hollowknight.shade_spawn_egg": "Shade Spawn Egg",
+      "item.hollowknight.pale_ore_item": "Бледная руда"
+    },
+    "en_us": {
+      "itemGroup.tabhollow_knight_tab": "Hollow Knight",
+      "item.hollowknight.entity_plague_spawn_egg": "Entity Plague Spawn Egg",
+      "item.hollowknight.broken_ghost_head": "Broken Ghost Head",
+      "entity.hollowknight.shade": "Shade",
+      "item.hollowknight.plague": "Plague",
+      "item.hollowknight.ghost_head": "Ghost Head",
+      "block.hollowknight.pale_ore": "Pale Ore",
+      "entity.hollowknight.ghost": "Ghost",
+      "entity.hollowknight.radiance": "Radiance",
+      "item.hollowknight.shadeitem": "Shadeitem",
+      "item.hollowknight.ghost_spawn_egg": "Ghost Spawn Egg",
+      "effect.hollowknight.effect_plague": "Plague",
+      "item.hollowknight.geo": "Geo",
+      "entity.hollowknight.entity_plague": "Entity Plague",
+      "item.hollowknight.radiance_spawn_egg": "Radiance Spawn Egg",
+      "item.hollowknight.nail": "Nail",
+      "item.hollowknight.shade_spawn_egg": "Shade Spawn Egg",
+      "item.hollowknight.pale_ore_item": "Pale Ore Item"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "hollowknight",
+    "modName": "HollowKnight",
+    "version": "1.0.0",
+    "author": "radmir, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "geckolib"
+    ],
+    "currentGenerator": "forge-1.19.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "fan.teamchery.hollowknight",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300336712
+}

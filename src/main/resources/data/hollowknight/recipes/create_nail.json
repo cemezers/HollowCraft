@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "hollowknight:pale_ore_item"
+    },
+    "1": {
+      "item": "hollowknight:pale_ore_item"
+    },
+    "2": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "hollowknight:nail",
+    "count": 1
+  }
+}

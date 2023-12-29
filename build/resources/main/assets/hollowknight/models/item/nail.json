@@ -1,0 +1,7 @@
+{
+  "parent": "hollowknight:custom/nail",
+  "textures": {
+    "0": "hollowknight:blocks/texture",
+    "particle": "hollowknight:items/nail"
+  }
+}

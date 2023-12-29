@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "hollowknight:custom/chest_hollow_particle"
+    },
+    "facing=east": {
+      "model": "hollowknight:custom/chest_hollow_particle",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "hollowknight:custom/chest_hollow_particle",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "hollowknight:custom/chest_hollow_particle",
+      "y": 270
+    }
+  }
+}

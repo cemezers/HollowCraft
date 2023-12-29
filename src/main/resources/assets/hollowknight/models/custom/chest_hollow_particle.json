@@ -1,0 +1,7 @@
+
+{
+  "parent": "hollowknight:displaysettings/chest.item",
+  "textures": {
+    "particle": "hollowknight:blocks/chest"
+  }
+}

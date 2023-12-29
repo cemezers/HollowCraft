@@ -1,0 +1,11 @@
+{
+  "_fv": 47,
+  "_type": "tab",
+  "definition": {
+    "name": "Hollow Knight",
+    "icon": {
+      "value": "CUSTOM:GhostHead"
+    },
+    "showSearch": false
+  }
+}
